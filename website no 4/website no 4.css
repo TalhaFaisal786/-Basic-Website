@@ -1,0 +1,1086 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.body1{
+    width:100%;
+    height: auto;
+ 
+    background-image: radial-gradient(circle, #34335e, #2b295a, #221f56, #191452, #0e094d);
+    
+}
+.container-fluid{
+    width: 100%;
+    height: auto;
+
+    
+    
+    }
+    #margin{
+        margin-left:80px;
+    }
+    #logo{
+        font-size: 30px;
+        color:white ;
+        font-family: sans-serif;
+        
+        margin-top: 10px;
+    
+    }
+
+    #home{ 
+        margin-left: 400px;
+        border: 1px solid transparent;
+        padding: 10px;
+        color: white;
+        margin-top: 10px;
+        font-weight: 620;
+        display: inline-block;
+        
+        
+    }
+    #home:hover{
+        padding: px;
+        background-color: orangered;
+        border-radius: 5px;
+        transition-duration: 0.6s;
+    }
+   
+    #style{
+        border: 1px solid transparent;
+        padding: 10px;
+        margin-left: 20px;
+        color: white;
+        margin-top: 10px;
+        font-weight: 620;
+    }
+    #style:hover{
+        padding: px;
+        background-color: orangered;
+        border-radius: 5px;
+        transition-duration: 0.6s;
+    }
+    
+  
+    #width{
+     border: 1px solid transparent;
+        padding: 8px;
+        margin-left: 20px;
+        color: white;
+        margin-top: 10px;
+        font-weight: 620;
+    }
+    #width:hover{
+        padding: px;
+        background-color: orangered;
+        border-radius: 5px;
+        transition-duration: 0.6s;
+    }
+
+    #drop{
+     border: 1px solid transparent;
+        padding: 8px;
+        margin-left: 20px;
+        color: white;
+        margin-top: 10px;
+        font-weight: 620;
+    }
+    #drop:hover{
+        padding: 8px;
+        background-color: orangered;
+        border-radius: 5px;
+        transition-duration: 0.6s;
+    }
+    
+ 
+    #portfolio{
+     border: 1px solid transparent ;
+        padding: 8px;
+        margin-left: 20px;
+        color: white;
+        margin-top: 10px;
+        font-weight: 620;
+    }
+    #portfolio:hover{
+        padding: px;
+        background-color: orangered;
+        border-radius: 5px;
+        transition-duration: 0.6s;
+    }
+   
+    #gallery{
+         border: 1px solid transparent ;
+        padding: 8px;
+        margin-left: 20px;
+        color: white;
+        margin-top: 10px;
+        font-weight: 620;
+        
+    }
+    #gallery:hover{
+        padding: px;
+        background-color: orangered;
+        border-radius: 5px;
+        transition-duration: 0.6s;
+    }
+    @media only screen and (min-width:200px){
+      #home{
+        margin-left: 20px;
+      }      
+    }
+    @media only screen and (max-width:275px){
+        #logo{
+            font-size: 22px;
+            margin-left: 0px;
+        }
+      }
+      @media only screen and (max-width:1000px){
+        #margin{
+            margin-left: 100px;
+        }      
+      }
+      .textparent{
+        width: 100%;
+        height: auto;
+        border: 5px solid transparent;
+        margin-top: 50px;
+        margin-bottom:130px ;
+        
+      }
+      .texth1{
+        color: white;
+        margin-left: 50px;
+        font-family: sans-serif;
+        font-size: 40px;
+        margin-top: 20px;
+        line-break: normal;
+        font-weight: 500;
+      }
+      .textp{
+        margin-left:50px;
+        font-size: 14px;
+        color: white;   
+
+      }
+      .textbtn{
+        padding: 10px;
+        background-color:orangered;
+        border-radius: 7px;
+        border-color: transparent;
+        color: white;
+        width: 160px;  
+        margin-left:50px;
+      }
+      .textbtn:hover{
+           color:white;
+           border-color:white;
+           transition-duration: 0.7s;
+           scale: 1.1;
+      }
+
+      @media only screen and (max-width:300px){
+        .texth1{
+        margin-left: 100px;
+        }      
+        .textp{
+            margin-left: 100px;
+            }
+            .textbtn{
+                margin-left: 100px;
+                }
+      }
+
+      #imgdaba{
+        border: 3px solid transparent;
+        width: 100%;
+        margin-top: 30px;
+        background-color: transparent;
+        margin-bottom:130px;
+
+
+      }
+      .img1{
+        width: 100%;
+        height: 100%;
+        
+      }
+
+      #body2{
+        background-color: white;
+        width: 660px;
+        height: 250px;
+        margin: auto;
+        margin-top: -80px;
+        border-radius: 12px;
+        text-align: center;
+        padding: 1px;
+        box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+      }
+      .input1{
+        width: 60%;
+        margin-left: -0px;
+        margin-top: 30px;
+        border-color: transparent; 
+        padding:6px;      
+      }
+      #btn2{
+        background-color:blue;
+        color: white;
+        width: 150px;
+        margin-top: -7px;
+      }
+      .h1{
+        margin-top: 30px;
+        font-size: 25px;
+      }
+      .text2{
+        border: 2px solid transparent;
+        height: 70px;
+        padding: 10px;
+        margin-top: 20px;
+
+      }
+      .texts2{
+        margin: 30px;
+        font-weight: bold;
+        
+      }
+      .pk{
+        margin-left: 10px;
+
+      }
+      
+      .org:hover{
+        color: blue;
+        cursor: pointer;
+      }
+      .pk:hover{
+        color: blue;
+      }
+      .com:hover{
+        color: blue;
+      }
+      .network:hover{
+        color: blue;
+      }
+
+      @media only screen and (max-width:600px){
+        #body2{
+            width: 500px;
+        }
+      }
+      @media only screen and (max-width:500px){
+        #body2{
+            width: 400px;
+        }
+      }
+      @media only screen and (max-width:400px){
+        #body2{
+            width: 400px;
+        }
+        .input1{
+            width: 40%;
+        }
+        #btn2{
+            width: 100px;
+        }
+        .h1{
+            font-size: 18px;
+        }
+
+      }
+      @media only screen and (max-width:310px){
+        #body2{
+            width: 300px;
+        }
+        .input1{
+            width: 35%;
+        }
+        #btn2{
+            width: 80px;
+        }
+        .h1{
+            font-size: 15px;
+        }
+
+      }
+      @media only screen and (max-width:280px){
+        .texth1{
+          margin-left: 0%;
+        }  
+        .textp{
+          margin-left: 0%;
+        } 
+        .textbtn{
+          margin-left: 0%;
+        }
+        #imgdaba{
+          margin-left: 0%;
+        } 
+        #logo{
+          margin-left: 0;
+        }
+  
+        }
+
+  
+      
+      .main2{
+        width: 100%;
+        height: auto;
+        background-color: white;
+        text-align: center;
+    }
+    .secondheading{
+        margin-top: 100px;   
+    }
+    .secondpara{   
+        line-height: 30px;
+        text-align: center;
+        
+    }
+    .cards{
+        border: 4px solid transparent; 
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin-bottom: 10px;
+        
+        
+    }
+    .card1{
+        border: 2px solid white;
+        width: 300px;
+        height: 65vh;
+        margin-top: 10px;
+        padding: 10px;
+        border-radius: 20px;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+        
+    }
+    .card1::after{
+      content: '';
+      position: absolute;
+      background: white;
+      inset: 6px;
+    }
+    .card1::before{
+      content:'';
+      position: absolute;
+      width: 150px;
+      height: 450px;
+      background: linear-gradient(#00ccff,#d400d4);
+      margin-left: -70px;
+      margin-top: -70px;
+      animation: move 4s linear infinite;
+    }
+    @keyframes move{
+      0%{
+        transform: rotate(0deg);
+      }
+      100%{
+        transform: rotate(350deg);
+      }
+    }
+    .card1:hover{
+        box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        margin-top: -10px;
+        transition-duration: 0.6s;
+        
+    }
+    .icon1{
+        color: blue;
+        height: 50px;
+        width: 20%;
+        text-align: center;
+        margin: auto;
+        margin-top: 40px;
+        padding-top: 10px;
+        z-index: 100;
+        position: relative;
+
+        
+    }
+  
+
+    .card2{
+        border: 2px solid TRANSPARENT;
+        width: 300px;
+        height: 65vh;
+        margin-top: 10px;
+        padding: 10px;
+        border-radius: 15px;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+        
+       
+        
+    }
+    .card2::after{
+      content: '';
+      position: absolute;
+      background: white;
+      inset: 6px;
+    }
+    .card2::before{
+      content:'';
+      position: absolute;
+      width: 150px;
+      height: 450px;
+      background: linear-gradient(#00ccff,#d400d4);
+      margin-left: -70px;
+      margin-top: -70px;
+      animation: move 4s linear infinite;
+    }
+    .card2:hover{
+        box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        margin-top: -10px;
+        transition-duration: 0.6s;
+   
+    }
+
+    .icon2{
+        color: blue;
+        height: 50px;
+        width: 20%;
+        text-align: center;
+        margin: auto;
+        margin-top: 40px;
+        padding-top: 10px;
+       position: relative;
+       z-index: 100;
+        
+    }
+
+    .card3{
+        border: 2px solid TRANSPARENT;
+        width: 300px;
+        height: 65vh;
+        margin-top: 10px;
+        padding: 10px;
+        border-radius: 15px;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+       
+
+        
+    }
+    .card3::after{
+      content: '';
+      position: absolute;
+      background: white;
+      inset: 6px;
+    }
+    .card3::before{
+      content:'';
+      position: absolute;
+      width: 150px;
+      height: 450px;
+      background: linear-gradient(#00ccff,#d400d4);
+      margin-left: -70px;
+      margin-top: -70px;
+      animation: move 4s linear infinite;
+    }
+    .card3:hover{
+        box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        margin-top: -10px;
+        transition-duration: 0.6s;
+
+    }
+
+    .icon3{
+        color: blue;
+        height: 50px;
+        width: 20%;
+        text-align: center;
+        margin: auto;
+        margin-top: 40px;
+        padding-top: 10px;
+        position: relative;
+        z-index: 100;
+
+        
+    }
+
+
+    @media only screen and (max-width:770px){
+        .card1{
+            margin-left: 100px;
+        }
+        .card2{
+            margin-left: 100px;
+        }
+        .card3{
+            margin-left: 100px;
+        }
+
+      }
+
+      @media only screen and (max-width:500px){
+        .card1{
+            margin-left: 60px;
+        }
+        .card2{
+            margin-left: 60px;
+        }
+        .card3{
+            margin-left: 60px;
+        }
+
+      }
+      @media only screen and (max-width:415px){
+        .card1{
+            margin-left: 50px;
+        }
+        .card2{
+            margin-left: 50px;
+        }
+        .card3{
+            margin-left: 50px;
+        }
+
+      }
+
+      @media only screen and (max-width:350px){
+        .card1{
+            margin-left: 0px;
+        }
+        .card2{
+            margin-left: 0px;
+        }
+        .card3{
+            margin-left: 0px;
+        }
+
+      }
+
+      @media only screen and (max-width:280px){
+        .card1{
+            margin-left: -30px;
+        }
+        .card2{
+            margin-left: -30px;
+        }
+        .card3{
+            margin-left: -30px;
+        }
+
+      }
+
+
+
+      
+
+      .daba2{
+        border: 5px solid transparent;
+        width: 100%;
+        height:80vh;
+        background-image: radial-gradient(circle, #34335e, #2b295a, #221f56, #191452, #0e094d);
+        margin-top: 80px;
+      }
+
+      .textparent2{
+        width: 100%;
+        height: auto;
+        border: 5px solid transparent;
+        margin-top: 0px;
+        
+        
+      }
+      .texth12{
+        color: white;
+        margin-left: 100px;
+        font-family: sans-serif;
+        font-size: 40px;
+        margin-top: 50px;
+        line-break: normal;
+        font-weight: 500;
+      }
+      .textp2{
+        margin-left:100px;
+        font-size: 14px;
+        color: white;   
+
+      }
+      .textbtn2{
+        padding: 10px;
+        background-color:orangered;
+        border-radius: 7px;
+        border-color: transparent;
+        color: white;
+        width: 160px;  
+        margin-left:100px;
+      }
+      .textbtn2:hover{
+           color:white;
+           border-color:white;
+           transition-duration: 0.7s;
+           scale: 1.1;
+      }
+      #imgdaba2{
+        border: 3px solid transparent;
+        width: 100%;
+        margin-top: 15px;
+        background-color: transparent;
+        margin-left: 60px;
+
+
+      }
+      .img12{
+        width: 100%;
+        height:80%;
+        margin-top: 5px;
+        
+      }
+
+      @media only screen and (max-width:985px){
+       .daba2{
+        height: auto;
+       }
+      }
+      @media only screen and (max-width:280px){
+      .texth12{
+        margin-left: 0%;
+      }  
+      .textp2{
+        margin-left: 0%;
+      } 
+      .textbtn2{
+        margin-left: 0%;
+      }
+      #imgdaba2{
+        margin-left: 0%;
+      } 
+
+      }
+
+      @media only screen and (max-width:350px){
+        .texth12{
+          margin-left: -10px;
+        }  
+        .textp2{
+          margin-left: 0%;
+        } 
+        .textbtn2{
+          margin-left: 0%;
+        }
+        #imgdaba2{
+          margin-left: 0%;
+        } 
+  
+        }
+
+      .daba3{
+        text-align: center;
+        width: 100%;
+        height: auto;
+        border: 5px solid  transparent;
+
+      }
+
+      .card4{
+        border: 2px solid transparent;
+        width: 400px;
+        height: 70vh;
+        margin-top: 10px;
+        padding: 10px;
+        border-radius: 15px;
+        margin-left: 150px;
+        margin-bottom: 20px;
+
+        
+        
+    }
+    .card4:hover{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin-top: -10px;
+        transition-duration: 0.6s;
+        background-color: rgb(47, 47, 242);
+        color: white;
+    }
+    .icon4{
+        color: blue;
+        height: 50px;
+        width: 20%;
+        text-align: center;
+        margin: auto;
+        margin-top: -45px;
+        padding-top: 10px;
+        margin-left: 290px;
+
+        
+    }
+    .textbtn3{
+      padding: 10px;
+      background-color:white;
+      border-radius: 10px;
+      border-color: transparent;
+      color: black;
+      width: 160px;  
+      margin-left:-140px;
+      border-color:blue;
+      font-weight: bold;
+    }
+    .textbtn3:hover{
+      color:black;
+      border-color:blue;
+      transition-duration: 0.7s;
+      scale: 1.1;
+ }
+
+    .card5{
+      border: 2px solid transparent;
+      width: 400px;
+      height: 70vh;
+      margin-top: 10px;
+      padding: 10px;
+      border-radius: 15px;
+      margin-left: 50px;
+
+      
+      
+  }
+  .card5:hover{
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      margin-top: -10px;
+      transition-duration: 0.6s;
+       background-color:rgb(47, 47, 242);
+       color: white;
+  }
+
+  @media only screen and (max-width:1200px){
+    .card4{
+      margin-left: 0;
+    } 
+  }
+  @media only screen and (max-width:990px){
+    .card4{
+      margin-left: 130px;
+      margin-bottom: 30px;
+    }
+    .card5{
+      margin-left: 130px;
+    }
+  } 
+  @media only screen and (max-width:770px){
+    .card4{
+      margin-left: 60px;
+      margin-bottom: 30px;
+    }
+    .card5{
+      margin-left: 60px;
+    }
+  } 
+  @media only screen and (max-width:475px){
+    .card4{
+      margin-left: 50px;
+      width: 300px;
+      height: 55vh;
+
+    }
+    .icon4{
+      margin-left: 220px;
+    }
+    .textbtn3{
+      margin-left: -0px;
+    }
+    .card5{
+      margin-left: 50px;
+      width: 300px;
+      height: 55vh;
+
+    }
+  } 
+  
+  @media only screen and (max-width:375px){
+    .card4{
+      margin-left: 20px;
+      width: 300px;
+      height: 50vh;
+
+    }
+    .icon4{
+      margin-left: 220px;
+    }
+    .textbtn3{
+      margin-left: -0px;
+    }
+    .card5{
+      margin-left: 20px;
+      width: 300px;
+      height: 50vh;
+
+    }
+  } 
+  @media only screen and (max-width:280px){
+    .card4{
+      margin-left: -15px;
+      width: 280px;
+      height: 50vh;
+
+    }
+    .icon4{
+      margin-left: 220px;
+    }
+    .textbtn3{
+      margin-left: -0px;
+    }
+    .card5{
+      margin-left: -15px;
+      width: 280px;
+      height: 50vh;
+
+    }
+  } 
+
+
+  .main4{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    text-align: center;
+    
+}
+.daba4{
+  width: 100%;
+  border: 5px solid transparent;
+  height: auto;
+  text-align: center;
+}
+.secondheading2{
+    margin-top: 50px;  
+    font-size: 30px; 
+}
+.secondpara2{   
+    line-height: 30px;
+    text-align: center;
+    font-size: 12px;
+}
+.cards2{
+  border: 4px solid transparent; 
+  width: 100%;
+  height: auto;
+  margin-left: 50px;
+
+
+  
+  
+}
+
+
+.card6{
+  border: 2px solid TRANSPARENT;
+  width: 250px;
+  height: 80vh;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  text-align: center;
+  
+}
+.card6:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: -10px;
+  transition-duration: 0.6s;
+}
+.icon6{
+  color: blue;
+  height: 50px;
+  width: 20%;
+  text-align: center;
+  margin: auto;
+  margin-top: 40px;
+  padding-top: 10px;
+
+  
+}
+.btn3{
+  background-color: blue;
+  color: white;
+  border-color:transparent;
+  margin-top: 20px;
+  padding: 8px;
+  width: 160px;
+}
+
+.btn3:hover{
+  scale: 1.1;
+  transition-duration: 0.6s;
+  border-radius: 10px;
+}
+.card7{
+  border: 2px solid TRANSPARENT;
+  width: 250px;
+  height: 80vh;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  text-align: center;
+ 
+  
+}
+.card7:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: -10px;
+  transition-duration: 0.6s;
+
+}
+
+.icon7{
+  color: blue;
+  height: 50px;
+  width: 20%;
+  text-align: center;
+  margin: auto;
+  margin-top: 40px;
+  padding-top: 10px;
+
+  
+}
+
+.card8{
+  border: 2px solid TRANSPARENT;
+  width: 250px;
+  height: 80vh;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  text-align: center;
+ 
+
+  
+}
+.card8:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: -10px;
+  transition-duration: 0.6s;
+
+}
+
+.icon8{
+  color: blue;
+  height: 50px;
+  width: 20%;
+  text-align: center;
+  margin: auto;
+  margin-top: 40px;
+  padding-top: 10px;
+
+  
+}
+
+@media only screen and (max-width:770px){
+  .card6{
+    margin-left: 60px;
+    margin-bottom: 30px;
+  }
+  .card7{
+    margin-left: 60px;
+  }
+  .card8{
+    margin-left: 60px;
+  }
+} 
+@media only screen and (max-width:450px){
+  .card6{
+    margin-left: 0px;
+    margin-bottom: 30px;
+  }
+  .card7{
+    margin-left: 0px;
+  }
+  .card8{
+    margin-left: 0px;
+  }
+} 
+
+@media only screen and (max-width:375px){
+  .card6{
+    margin-left: -10px;
+    margin-bottom: 30px;
+  }
+  .card7{
+    margin-left: -10px;
+    margin-bottom: 30px;
+  }
+  .card8{
+    margin-left: -10px;
+    margin-bottom: 30px;
+  }
+} 
+@media only screen and (max-width:280px){
+  .card6{
+    margin-left: -70px;
+    margin-bottom: 30px;
+  }
+  .card7{
+    margin-left: -70px;
+    margin-bottom: 30px;
+  }
+  .card8{
+    margin-left: -70px;
+    margin-bottom: 30px;
+  }
+}
+
+.main5{
+  width: 100%;
+  height: 100vh;
+  background-color:white;
+}
+.daba5{
+  border: 5px solid transparent;
+  width: 100%;
+  height:auto;
+  margin-bottom: 50px;
+}
+.para{
+  width: 100%;
+  height: auto;
+  border: 2px solid transparent;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+.btn4{
+  margin-left: 100px;
+  padding: 5px;
+  width: 130px;
+  background-color: white;
+  color: blue;
+  
+}
+.btn4:hover{
+  scale: 1.1;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition-duration: 0.5s;
+}
+.main6{
+margin-top: 360px;
+}
+@media only screen and (max-width:700px){
+  .main6{
+    margin-top: 1000px;
+  }
+  @media only screen and (max-width:330px){
+    .main6{
+      margin-top: 1100px;
+    }
+  }
+}
+@media only screen and (max-width:285px){
+  .main6{
+    margin-top: 1200px;
+  }
+}
